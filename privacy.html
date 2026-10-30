@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Gear Rush: privacy note</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <style>
+      body { margin: 0; background: #1d2433; color: #f4f1e8; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+      main { max-width: 640px; margin: 0 auto; padding: 24px 20px 48px; }
+      h1 { font-size: 26px; margin: 0 0 4px; }
+      h2 { font-size: 18px; margin: 24px 0 6px; color: #ffd35c; }
+      p, ul { margin: 0 0 10px; }
+      ul { padding-left: 20px; }
+      a { color: #9ed8f5; }
+      .meta { opacity: 0.7; font-size: 14px; }
+      .lang { margin: 0 0 20px; }
+      section + section { margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.2); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="en" lang="en">
+        <h1>Gear Rush: privacy note</h1>
+        <p class="meta">Updated 31 October 2026</p>
+        <p class="lang"><a href="#pl">Polska wersja</a></p>
+        <p>Gear Rush needs no login or email, and it asks for nothing that says who you are. This note covers what leaves your device and how to remove it. Gear Rush is run by Maciej Jagiello, who is responsible for this data.</p>
+
+        <h2>On your device</h2>
+        <p>Your progress and settings are saved in this browser's storage. The save itself is never uploaded, so clearing the browser's data erases it. The game uses no cookies.</p>
+
+        <h2>Online leaderboard</h2>
+        <p>Your first Daily Run creates a guest account, with no name or email. It stores:</p>
+        <ul>
+          <li>a random account ID, kept on this device so the game knows it is you;</li>
+          <li>the nickname you choose, if you choose one;</li>
+          <li>your best distance for each day, with its vehicle, paint colours and the time it was set;</li>
+          <li>a start record for each Daily Run, used to check scores and deleted after about 3 days.</li>
+        </ul>
+        <p>Your nickname, distance, vehicle and paint colour are public on that day's board. Without a nickname your score is stored but hidden. Please don't use your real name.</p>
+        <p>Scores and accounts stay until you delete them. The board runs on <a href="https://supabase.com/privacy">Supabase</a>. We use this data only to run the board, and may remove nicknames or scores that break the rules.</p>
+
+        <h2>Anonymous stats</h2>
+        <p>The game sends gameplay events, such as runs, distances, purchases and errors, to <a href="https://posthog.com/privacy">PostHog</a> in the EU. They also carry counts from your save, your device's operating system and browser type, and the site or link that brought you here. They use a random session ID that is never stored, and carry no account ID or nickname. We use them to improve the game.</p>
+
+        <h2>Connections</h2>
+        <p>The game is hosted on <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages</a>. As with any website, GitHub, Supabase and PostHog see your IP address when your device connects to them, and may keep it for a short time in their own logs. The game doesn't store it with your scores or stats.</p>
+
+        <h2>Your choices</h2>
+        <ul>
+          <li><strong>Leaderboard:</strong> turn off Settings → Online leaderboard. This deletes your guest account, nickname and scores.</li>
+          <li><strong>Stats:</strong> turn off Settings → Anonymous stats.</li>
+          <li><strong>Lost access:</strong> if you cleared the browser's data or changed device, email us your nickname and we'll delete it. Without a nickname we can't tell which scores are yours.</li>
+        </ul>
+        <p>You can ask us to see, correct or delete your data, and you can complain to your data protection authority (in Poland, UODO).</p>
+
+        <h2>Contact</h2>
+        <p><a href="mailto:jagiello.maciek@gmail.com">jagiello.maciek@gmail.com</a></p>
+      </section>
+
+      <section id="pl" lang="pl">
+        <h1>Gear Rush: informacja o prywatności</h1>
+        <p class="meta">Aktualizacja: 31 października 2026</p>
+        <p class="lang"><a href="#en">English version</a></p>
+        <p>Gear Rush nie wymaga logowania ani e-maila i nie pyta o nic, co mówi, kim jesteś. Ta informacja opisuje, co opuszcza Twoje urządzenie i jak to usunąć. Grę prowadzi Maciej Jagiello, który odpowiada za te dane.</p>
+
+        <h2>Na Twoim urządzeniu</h2>
+        <p>Postępy i ustawienia są zapisane w pamięci tej przeglądarki. Sam zapis nigdy nie jest wysyłany, więc wyczyszczenie danych przeglądarki go kasuje. Gra nie używa plików cookie.</p>
+
+        <h2>Ranking online</h2>
+        <p>Pierwsza Trasa Dnia tworzy konto gościa, bez imienia i e-maila. Zapisuje ono:</p>
+        <ul>
+          <li>losowy identyfikator konta, trzymany na tym urządzeniu, żeby gra Cię rozpoznała;</li>
+          <li>wybrany przez Ciebie nick, jeśli go wybierzesz;</li>
+          <li>najlepszy dystans każdego dnia wraz z pojazdem, kolorami lakieru i czasem jego ustanowienia;</li>
+          <li>zapis startu każdej Trasy Dnia, służący do sprawdzania wyników i usuwany po około 3 dniach.</li>
+        </ul>
+        <p>Twój nick, dystans, pojazd i kolor lakieru są publicznie widoczne w rankingu danego dnia. Bez nicku wynik jest zapisany, ale ukryty. Prosimy, nie używaj prawdziwego imienia i nazwiska.</p>
+        <p>Wyniki i konta zostają, dopóki ich nie usuniesz. Ranking działa na <a href="https://supabase.com/privacy">Supabase</a>. Używamy tych danych tylko do prowadzenia rankingu i możemy usuwać nicki lub wyniki łamiące zasady.</p>
+
+        <h2>Anonimowe statystyki</h2>
+        <p>Gra wysyła zdarzenia z rozgrywki, takie jak przejazdy, dystanse, zakupy i błędy, do <a href="https://posthog.com/privacy">PostHog</a> w UE. Zawierają też liczniki z Twojego zapisu, typ systemu i przeglądarki oraz stronę lub link, z którego tu trafiasz. Używają losowego identyfikatora sesji, który nigdy nie jest zapisywany, i nie zawierają identyfikatora konta ani nicku. Służą nam do ulepszania gry.</p>
+
+        <h2>Połączenia</h2>
+        <p>Gra jest hostowana na <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages</a>. Jak przy każdej stronie, GitHub, Supabase i PostHog widzą Twój adres IP, gdy urządzenie się z nimi łączy, i mogą przez krótki czas trzymać go w swoich logach. Gra nie zapisuje go razem z wynikami ani statystykami.</p>
+
+        <h2>Twoje wybory</h2>
+        <ul>
+          <li><strong>Ranking:</strong> wyłącz Ustawienia → Ranking online. To usuwa konto gościa, nick i wyniki.</li>
+          <li><strong>Statystyki:</strong> wyłącz Ustawienia → Anonimowe statystyki.</li>
+          <li><strong>Utracony dostęp:</strong> jeśli wyczyszczono dane przeglądarki lub zmieniono urządzenie, napisz do nas, podając nick, a usuniemy go. Bez nicku nie wiemy, które wyniki są Twoje.</li>
+        </ul>
+        <p>Możesz poprosić nas o wgląd w dane, ich poprawienie lub usunięcie, a także złożyć skargę do organu ochrony danych (w Polsce: UODO).</p>
+
+        <h2>Kontakt</h2>
+        <p><a href="mailto:jagiello.maciek@gmail.com">jagiello.maciek@gmail.com</a></p>
+      </section>
+    </main>
+  </body>
+</html>
