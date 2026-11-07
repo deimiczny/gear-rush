@@ -1,0 +1,1 @@
+(function(){"use strict";self.onmessage=({data:e})=>{const s=new OffscreenCanvas(e.width,e.height);s.getContext("2d").drawImage(e,0,0),e.close(),s.convertToBlob({type:"image/png"}).then(n=>self.postMessage(n),()=>self.postMessage(null))}})();
