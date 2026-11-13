@@ -23,12 +23,12 @@
     <main>
       <section id="en" lang="en">
         <h1>Gear Rush: privacy note</h1>
-        <p class="meta">Updated 11 November 2026</p>
+        <p class="meta">Updated 13 November 2026</p>
         <p class="lang"><a href="#pl">Polska wersja</a></p>
         <p>Gear Rush needs no login or email, and it asks for nothing that says who you are. This note covers what leaves your device and how to remove it. Gear Rush is run by deimiczny, who is responsible for this data.</p>
 
         <h2>On your device</h2>
-        <p>Your progress, settings and in-game messages are saved in this browser's storage. The save itself is never uploaded, so clearing the browser's data erases it. The game uses no cookies.</p>
+        <p>Your progress, settings and in-game messages are saved in this browser's storage. Unless you make a recovery code (below), the save is never uploaded, so clearing the browser's data erases it. The game uses no cookies.</p>
 
         <h2>Online leaderboard</h2>
         <p>Your first Daily Run, or opening the board, creates a guest account with no name or email. It stores:</p>
@@ -41,6 +41,15 @@
         <p>Your nickname, distance, vehicle and paint colour are public on that day's board and that week's board, and your position and name can also appear on the road in other players' Daily Runs. Without a nickname your score shows under a generated name such as Rider 4821. Please don't use your real name.</p>
         <p>Scores and accounts stay until you delete them. The board runs on <a href="https://supabase.com/privacy">Supabase</a>. We use this data only to run the board, and may remove nicknames or scores that break the rules.</p>
 
+        <h2>Cloud save</h2>
+        <p>If you make a recovery code (Profile → Cloud save), your progress is also stored on Supabase, so you can move it to another device or get it back after clearing your data. Nothing is uploaded until you make a code.</p>
+        <ul>
+          <li>The code becomes the password of your guest account, which then also gets a made-up address built from the code's first 6 characters. No mail is ever sent, and no email address of yours is involved.</li>
+          <li>The save is uploaded after runs, purchases and when the game goes to the background: your records, gears, unlocks and choices, with no name or contact details. Your settings, such as volumes and language, stay on the device.</li>
+          <li>Only the latest copy is kept. Entering the code on another device moves the save there and signs this device out.</li>
+        </ul>
+        <p>Anyone with the code can use your progress, so keep it private. We can't recover a lost code.</p>
+
         <h2>Anonymous stats</h2>
         <p>The game sends gameplay events, such as runs, distances, purchases and errors, to <a href="https://posthog.com/privacy">PostHog</a> in the EU. They also carry counts from your save, whether the save was edited by hand, your device's operating system and browser type, and the site or link that brought you here. They use a random session ID that is never stored, and carry no account ID or nickname. We use them to improve the game.</p>
         <p>The game also adds your visits to each place to a shared total on Supabase, so the welcome signs can show how many times riders have passed through. It sends only those counts, with no ID. The totals can't be linked to you, so they stay if you delete your guest account.</p>
@@ -50,7 +59,8 @@
 
         <h2>Your choices</h2>
         <ul>
-          <li><strong>Leaderboard:</strong> turn off Settings → Online leaderboard. This deletes your guest account, nickname and scores.</li>
+          <li><strong>Leaderboard:</strong> turn off Settings → Online leaderboard. This hides you from every board: your nickname and scores stop showing to anyone, and no new scores are sent. Your account, scores and cloud save are kept, and turning it on again shows them again.</li>
+          <li><strong>Delete everything online:</strong> Settings → Privacy → Delete online data deletes your guest account, nickname, scores, cloud save and recovery code at once. The progress on your device stays.</li>
           <li><strong>Stats:</strong> turn off Settings → Anonymous stats. This also stops the shared visit counts.</li>
           <li><strong>Lost access:</strong> if you cleared the browser's data or changed device, email us your nickname and we'll delete it. Without a nickname we can't tell which scores are yours.</li>
         </ul>
@@ -62,12 +72,12 @@
 
       <section id="pl" lang="pl">
         <h1>Gear Rush: informacja o prywatności</h1>
-        <p class="meta">Aktualizacja: 11 listopada 2026</p>
+        <p class="meta">Aktualizacja: 13 listopada 2026</p>
         <p class="lang"><a href="#en">English version</a></p>
         <p>Gear Rush nie wymaga logowania ani e-maila i nie pyta o nic, co mówi, kim jesteś. Ta informacja opisuje, co opuszcza Twoje urządzenie i jak to usunąć. Grę prowadzi deimiczny, który odpowiada za te dane.</p>
 
         <h2>Na Twoim urządzeniu</h2>
-        <p>Postępy, ustawienia i wiadomości z gry są zapisane w pamięci tej przeglądarki. Sam zapis nigdy nie jest wysyłany, więc wyczyszczenie danych przeglądarki go kasuje. Gra nie używa plików cookie.</p>
+        <p>Postępy, ustawienia i wiadomości z gry są zapisane w pamięci tej przeglądarki. Jeśli nie utworzysz kodu odzyskiwania (niżej), zapis nigdy nie jest wysyłany, więc wyczyszczenie danych przeglądarki go kasuje. Gra nie używa plików cookie.</p>
 
         <h2>Ranking online</h2>
         <p>Pierwsza Trasa Dnia lub otwarcie rankingu tworzy konto gościa, bez imienia i e-maila. Zapisuje ono:</p>
@@ -80,6 +90,15 @@
         <p>Twój nick, dystans, pojazd i kolor lakieru są publicznie widoczne w rankingu danego dnia i tygodnia, a Twoje miejsce i nazwa mogą też pojawić się na trasie w Trasie Dnia innych graczy. Bez nicku wynik jest widoczny pod wygenerowaną nazwą, np. Rider 4821. Prosimy, nie używaj prawdziwego imienia i nazwiska.</p>
         <p>Wyniki i konta zostają, dopóki ich nie usuniesz. Ranking działa na <a href="https://supabase.com/privacy">Supabase</a>. Używamy tych danych tylko do prowadzenia rankingu i możemy usuwać nicki lub wyniki łamiące zasady.</p>
 
+        <h2>Zapis w chmurze</h2>
+        <p>Jeśli utworzysz kod odzyskiwania (Profil → Zapis w chmurze), Twoje postępy są też przechowywane w Supabase, żeby można je było przenieść na inne urządzenie lub odzyskać po wyczyszczeniu danych. Nic nie jest wysyłane, dopóki nie utworzysz kodu.</p>
+        <ul>
+          <li>Kod staje się hasłem Twojego konta gościa, które dostaje też zmyślony adres zbudowany z pierwszych 6 znaków kodu. Żadna poczta nie jest wysyłana i nie jest używany żaden Twój adres e-mail.</li>
+          <li>Zapis jest wysyłany po przejazdach, zakupach i gdy gra przechodzi w tło: rekordy, zębatki, odblokowania i wybory, bez imienia ani danych kontaktowych. Ustawienia, takie jak głośność i język, zostają na urządzeniu.</li>
+          <li>Przechowywana jest tylko najnowsza kopia. Wpisanie kodu na innym urządzeniu przenosi tam zapis i wylogowuje to urządzenie.</li>
+        </ul>
+        <p>Każdy, kto zna kod, może przejąć Twoje postępy, więc nie udostępniaj go. Zgubionego kodu nie możemy odzyskać.</p>
+
         <h2>Anonimowe statystyki</h2>
         <p>Gra wysyła zdarzenia z rozgrywki, takie jak przejazdy, dystanse, zakupy i błędy, do <a href="https://posthog.com/privacy">PostHog</a> w UE. Zawierają też liczniki z Twojego zapisu, informację, czy zapis był ręcznie edytowany, typ systemu i przeglądarki oraz stronę lub link, z którego tu trafiasz. Używają losowego identyfikatora sesji, który nigdy nie jest zapisywany, i nie zawierają identyfikatora konta ani nicku. Służą nam do ulepszania gry.</p>
         <p>Gra dodaje też Twoje wizyty w poszczególnych miejscach do wspólnej sumy w Supabase, żeby znaki powitalne mogły pokazać, ile razy przejechali tamtędy gracze. Wysyła tylko te liczby, bez żadnego identyfikatora. Sum nie da się powiązać z Tobą, więc zostają po usunięciu konta gościa.</p>
@@ -89,7 +108,8 @@
 
         <h2>Twoje wybory</h2>
         <ul>
-          <li><strong>Ranking:</strong> wyłącz Ustawienia → Ranking online. To usuwa konto gościa, nick i wyniki.</li>
+          <li><strong>Ranking:</strong> wyłącz Ustawienia → Ranking online. To ukrywa Cię we wszystkich rankingach: Twój nick i wyniki przestają być widoczne dla innych, a nowe wyniki nie są wysyłane. Konto, wyniki i zapis w chmurze zostają, a ponowne włączenie znów je pokazuje.</li>
+          <li><strong>Usunięcie wszystkiego online:</strong> Ustawienia → Prywatność → Usuń dane online od razu usuwa konto gościa, nick, wyniki, zapis w chmurze i kod odzyskiwania. Postępy na urządzeniu zostają.</li>
           <li><strong>Statystyki:</strong> wyłącz Ustawienia → Anonimowe statystyki. To zatrzymuje też wysyłanie wspólnych liczników wizyt.</li>
           <li><strong>Utracony dostęp:</strong> jeśli wyczyszczono dane przeglądarki lub zmieniono urządzenie, napisz do nas, podając nick, a usuniemy go. Bez nicku nie wiemy, które wyniki są Twoje.</li>
         </ul>
